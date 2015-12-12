@@ -12,6 +12,13 @@ footer {
     }
   }
 
+  a.secret {
+    color: #FFFFFF;
+
+    &:hover {
+      color: $dark-font-color;
+    }
+  }
   .pencil-container {
     text-align: center;
 
