@@ -1,0 +1,75 @@
+#landing {
+  background-color: $primary-color;
+  color: $light-font-color;
+  text-align: center;
+  text-align: center;
+  padding-top: 3em;
+
+  nav a {
+    color: $light-font-color;
+    text-decoration: none;
+    margin-left: 1.5em;
+
+    &.active {
+      font-weight: bold;
+      border-bottom: 2px solid $light-font-color;
+      padding-bottom: 0.5em;
+    }
+  }
+
+  h1 {
+    font-size: 4em;
+    margin-top: 2em;
+  }
+
+  p.tagline {
+    font-size: 1.3em;
+    margin: 1em 0;
+  }
+
+  a.action {
+    background-color: $secondary-color;
+    width: 12em;
+  }
+
+  .image-container {
+    position: relative;
+
+    img {
+      margin-top: 5em;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      text-align: left;
+
+      p.title {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 0
+      }
+    }
+
+    .likes {
+      position: absolute;
+      bottom: 1em;
+      right: 1em;
+      font-size: 1.8em;
+
+      i {
+        margin-right: 0.2em;
+      }
+    }
+
+    .edit {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      font-size: 2em;
+      background-color: rgba(0,0,0,0.5);
+      padding: 0.3em;
+    }
+  }
+}

@@ -1,0 +1,216 @@
+body {
+  font-family: 'Sintony', sans-serif;
+  color: #C0C4C7; }
+
+.btn-solid {
+  background-color: #A18BCC;
+  color: #FFF;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em 3em; }
+  .btn-solid:hover {
+    color: #FFF; }
+
+.btn-outline {
+  color: #C0C4C7;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em 3em;
+  border: 2px solid #C0C4C7; }
+  .btn-outline:hover {
+    color: #C0C4C7; }
+
+#landing {
+  background-color: #A18BCC;
+  color: #FFF;
+  text-align: center;
+  text-align: center;
+  padding-top: 3em; }
+  #landing nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 1.5em; }
+    #landing nav a.active {
+      font-weight: bold;
+      border-bottom: 2px solid #FFF;
+      padding-bottom: 0.5em; }
+  #landing h1 {
+    font-size: 4em;
+    margin-top: 2em; }
+  #landing p.tagline {
+    font-size: 1.3em;
+    margin: 1em 0; }
+  #landing a.action {
+    background-color: #4BD9DD;
+    width: 12em; }
+  #landing .image-container {
+    position: relative; }
+    #landing .image-container img {
+      margin-top: 5em; }
+    #landing .image-container .caption {
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      text-align: left; }
+      #landing .image-container .caption p.title {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 0; }
+    #landing .image-container .likes {
+      position: absolute;
+      bottom: 1em;
+      right: 1em;
+      font-size: 1.8em; }
+      #landing .image-container .likes i {
+        margin-right: 0.2em; }
+    #landing .image-container .edit {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      font-size: 2em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0.3em; }
+
+#intro {
+  text-align: center;
+  padding: 2em 0; }
+  #intro .get-started {
+    background-color: #A18BCC; }
+  #intro .try-demo {
+    margin-left: 1em; }
+  #intro h2 {
+    margin: 2em 0 0.7em; }
+  #intro p {
+    font-size: 1.2em; }
+
+#features {
+  background-color: #F7F7F5;
+  background-image: url("../images/slanted-phone.jpg");
+  padding: 5em 0 14em;
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
+#take-look {
+  background-color: #A18BCC;
+  text-align: center;
+  padding: 3em 0;
+  color: #FFF; }
+  #take-look h2 {
+    text-transform: uppercase; }
+  #take-look p {
+    margin-bottom: 2em; }
+  #take-look a.take-my-money {
+    background-color: #4BD9DD; }
+  #take-look a.free-account {
+    color: #FFF;
+    border-color: #FFF;
+    margin-left: 1em; }
+
+#video-demo {
+  position: relative; }
+  #video-demo img {
+    width: 100%; }
+  #video-demo i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    font-size: 8vw;
+    transform: translate(-50%, -50%); }
+
+#customization {
+  text-align: center;
+  padding: 5em 0;
+  background-color: #F7F7F5; }
+  #customization i {
+    font-size: 3em;
+    color: #A18BCC; }
+  #customization a {
+    color: #A18BCC;
+    font-weight: bold; }
+
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing h2 {
+    text-transform: uppercase;
+    color: #A18BCC; }
+  #pricing p.caption {
+    color: #A18BCC;
+    margin-bottom: 2em;
+    font-weight: bold; }
+  #pricing .price-option {
+    border: 1px solid #C0C4C7;
+    border-radius: 10px;
+    height: 44em;
+    position: relative; }
+    #pricing .price-option h3 {
+      background-color: #A18BCC;
+      color: #FFF;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0; }
+    #pricing .price-option p.description {
+      font-weight: bold;
+      margin: 2em 3em 1em; }
+    #pricing .price-option p.price {
+      color: #4BD9DD;
+      font-size: 2.7em; }
+      #pricing .price-option p.price span {
+        font-size: 0.5em;
+        color: #C0C4C7;
+        position: relative;
+        top: -0.3em;
+        font-weight: bold; }
+    #pricing .price-option .reason {
+      border-top: 2px solid #e9eaeb;
+      padding: 1em;
+      margin: 0 2em;
+      font-weight: bold; }
+    #pricing .price-option a.signup {
+      margin: 0 2em;
+      position: absolute;
+      bottom: 2em;
+      left: 2em;
+      right: 2em; }
+      #pricing .price-option a.signup.btn-outline {
+        color: #A18BCC;
+        border-color: #A18BCC; }
+  #pricing .user_count {
+    color: #A18BCC;
+    margin-top: 1em;
+    font-size: 1.2em; }
+    #pricing .user_count span {
+      font-size: 1.3em;
+      font-weight: bold;
+      position: relative;
+      top: 0.1em; }
+
+#mountains img {
+  width: 100%; }
+#mountains .take-my-money {
+  background-color: #A18BCC;
+  padding: 3em 0;
+  text-align: center; }
+  #mountains .take-my-money a {
+    background-color: #4BD9DD; }
+
+footer {
+  border-bottom: 100px solid #ccc0e3;
+  padding: 3em 0; }
+  footer a {
+    display: block;
+    font-weight: bold;
+    margin: 0.5em 0; }
+    footer a, footer a:hover {
+      color: #C0C4C7; }
+  footer .pencil-container {
+    text-align: center; }
+    footer .pencil-container i {
+      font-size: 3em;
+      transform: rotate(-45deg); }
+
+/*# sourceMappingURL=app.css.map */
